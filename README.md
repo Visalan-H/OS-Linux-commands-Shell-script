@@ -379,7 +379,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/11e9a3b0-d33f-44e9-a31e-129bb4920ecd)
 
 mkdir backupdir
  
@@ -387,18 +387,25 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/987b8f9f-9128-40b1-9928-926489603cd0)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/9da5f757-cc7e-4647-9c42-b926e90dcf36)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+<!-- ![image](https://github.com/user-attachments/assets/f1f69d77-7f78-4c1c-80ef-edc309cf0a04) -->
+
+<!-- ![image](https://github.com/user-attachments/assets/ebb7917a-abdd-409d-93cb-27583f6ebcc7)
+-->
+
 gunzip backup.tar.gz
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/7867265a-25f0-44e7-8f7c-41c337095a1f)
 
  
 # Shell Script
@@ -421,6 +428,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e5fb4faa-5268-4af2-bd10-93952a3df02f)
 
 
 cat < scriptest.sh 
@@ -459,8 +467,8 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/b5a9e010-3cf4-49a7-9b8e-1a6cc4f9565c)
 
- 
 ls file1
 ## OUTPUT
 
