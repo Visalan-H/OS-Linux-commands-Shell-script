@@ -760,7 +760,7 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- ![Uploading image.png…]()
+ ![image](https://github.com/user-attachments/assets/728f52d8-adc6-4c45-bdec-2e8d2f869428)
 
 cat > whiletest
 ```bash
@@ -776,8 +776,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
- 
+## OUTPUT
+![image](https://github.com/user-attachments/assets/611be04f-3458-4636-a0a7-33f9adf761ba)
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -790,7 +791,9 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ ## OUTPUT
+ ![image](https://github.com/user-attachments/assets/71ecc863-8c9c-4a93-a1b7-275c9c742bcb)
+
  
 cat forin1.sh 
 ```bash
@@ -803,7 +806,9 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ ## OUTPUT
+ ![image](https://github.com/user-attachments/assets/8ff70871-37bf-4c48-9a5f-915a896fb71d)
+
  
 cat forin2.sh 
 ```bash
@@ -829,7 +834,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ ![image](https://github.com/user-attachments/assets/2dcf5782-78a1-40b0-82bd-cdf8a5f22d16)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -840,6 +846,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+## OUTPUT
+![image](https://github.com/user-attachments/assets/a0c35913-b1dd-4fd6-b906-3f12d7c363ac)
+
  
 cat forin1.sh 
 ```bash
@@ -851,6 +860,7 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
+![image](https://github.com/user-attachments/assets/c6367cff-7ab7-492d-bfe5-573ad50fc630)
 
 ## OUTPUT
 cat forinfile.sh 
@@ -874,6 +884,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d5f272ae-27b0-43c9-a336-487d61deb265)
 
 
 cat forctype.sh 
@@ -901,6 +912,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/16603047-f339-47bb-8716-35e38cf2a6a3)
 
 cat fornested1.sh 
 ```bash
@@ -919,6 +931,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+![image](https://github.com/user-attachments/assets/cf913aeb-06b0-48f2-ae31-4d5beb2cce07)
 
  
 cat forbreak.sh 
@@ -935,12 +948,12 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
-
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
+## OUTPUT
+![image](https://github.com/user-attachments/assets/d6db6d77-e884-4309-bb58-155533da390a)
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -961,7 +974,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![image](https://github.com/user-attachments/assets/34fd141e-16e1-4e9c-90d8-026617518c11)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -975,6 +989,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d5234e31-ee07-4d34-b657-e871bbc73a45)
 
 
  cat exread1.sh
@@ -985,12 +1000,9 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
-
 $ ./exread1.sh 
+## OUTPUT
+![image](https://github.com/user-attachments/assets/b3d2e24e-0ecc-4457-be47-65aa923ddc0e)
  
 cat funcex.sh
 ```bash
@@ -1009,9 +1021,11 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+![image](https://github.com/user-attachments/assets/8b4c1b78-1f92-4151-bc4e-9f033cdd6cef)
 
  
  ./funcex.sh 1 2
+![image](https://github.com/user-attachments/assets/54181cb2-3adf-4276-8489-6e02236be56a)
 
  
 cat argshift.sh
@@ -1026,6 +1040,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+![image](https://github.com/user-attachments/assets/f71780d2-ccf7-4c99-a130-9a21d4d98f1f)
+
  
  cat argshift1.sh
 ```bash
@@ -1043,7 +1059,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/user-attachments/assets/d750bbfb-fc92-4439-908d-6896001e889b)
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1056,7 +1073,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/user-attachments/assets/ca05469e-6b80-480f-a01d-b2975dade444)
+
  
 cat > nc.awk
 ```bash
@@ -1087,7 +1105,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![image](https://github.com/user-attachments/assets/44654b99-b394-4c8a-b1b3-3e6b5966f5a1)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1114,6 +1133,7 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/b2d33953-e600-4c30-9df0-5c0ed57920aa)
 
 
 # RESULT:
