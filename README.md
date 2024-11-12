@@ -935,6 +935,7 @@ $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
 ## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/d6db6d77-e884-4309-bb58-155533da390a)
 
 cat forbreak.sh 
@@ -957,7 +958,9 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+
  ![image](https://github.com/user-attachments/assets/34fd141e-16e1-4e9c-90d8-026617518c11)
+
 
 cat exread.sh 
 ```bash
@@ -972,6 +975,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/d5234e31-ee07-4d34-b657-e871bbc73a45)
 
 
@@ -985,6 +989,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 $ ./exread1.sh 
 ## OUTPUT
+
 ![image](https://github.com/user-attachments/assets/b3d2e24e-0ecc-4457-be47-65aa923ddc0e)
  
 cat funcex.sh
@@ -1004,10 +1009,12 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+ 
 ![image](https://github.com/user-attachments/assets/8b4c1b78-1f92-4151-bc4e-9f033cdd6cef)
 
  
  ./funcex.sh 1 2
+ 
 ![image](https://github.com/user-attachments/assets/54181cb2-3adf-4276-8489-6e02236be56a)
 
  
@@ -1023,6 +1030,7 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+
 ![image](https://github.com/user-attachments/assets/f71780d2-ccf7-4c99-a130-9a21d4d98f1f)
 
  
