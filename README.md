@@ -42,27 +42,24 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/4300bbc2-a58e-4301-8d9e-f70bc9f609f9)
+<img src="https://github.com/user-attachments/assets/4300bbc2-a58e-4301-8d9e-f70bc9f609f9" width="350px">
 
 cat < file2
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/51b6d8d0-cf7b-48d6-a754-d365ed94d745)
+<img src="https://github.com/user-attachments/assets/51b6d8d0-cf7b-48d6-a754-d365ed94d745" width="350px">
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/e2e5b8fe-63f6-4f88-988c-499a92f2a23b)
+<img src="https://github.com/user-attachments/assets/e2e5b8fe-63f6-4f88-988c-499a92f2a23b" width="350px">
 
 comm file1 file2
  ## OUTPUT
-![image](https://github.com/user-attachments/assets/e3a14a85-c487-488e-add4-0463f7664ade)
+<img src="https://github.com/user-attachments/assets/e3a14a85-c487-488e-add4-0463f7664ade" width="350px">
 
- 
 diff file1 file2
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/ec89ed66-16c1-4907-9fbf-78aef5e2a7ea)
-
-
+<img src="https://github.com/user-attachments/assets/ec89ed66-16c1-4907-9fbf-78aef5e2a7ea" width="350px">
 #Filters
 
 ### Create the following files file11, file22 as follows:
@@ -84,17 +81,15 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/c429d78c-a5ee-4435-acd3-1cf71a5959bd)
-
+<img src="https://github.com/user-attachments/assets/c429d78c-a5ee-4435-acd3-1cf71a5959bd" width="350px">
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/63b3a3ae-09b0-46ec-a243-818a8b29e5cc)
+<img src="https://github.com/user-attachments/assets/63b3a3ae-09b0-46ec-a243-818a8b29e5cc" width="350px">
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/020f3673-eaa5-4c44-b650-1604b769cb03)
-
+<img src="https://github.com/user-attachments/assets/020f3673-eaa5-4c44-b650-1604b769cb03" width="350px">
 
 cat < newfile 
 ```
@@ -108,32 +103,31 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/aad532b2-8bd7-41f1-b116-41f1e4d81a03)
+<img src="https://github.com/user-attachments/assets/aad532b2-8bd7-41f1-b116-41f1e4d81a03" width="350px">
 
 grep hello newfile 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/b73194a1-d4b3-4d69-82b6-5ebb97e55f0d)
+<img src="https://github.com/user-attachments/assets/b73194a1-d4b3-4d69-82b6-5ebb97e55f0d" width="350px">
 
 grep -v hello newfile 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/7c206c40-14bf-41df-b6a6-31b7cbc6a993)
+<img src="https://github.com/user-attachments/assets/7c206c40-14bf-41df-b6a6-31b7cbc6a993" width="350px">
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/eef14ba5-f2b0-4ef3-a789-82f57841e4de)
+<img src="https://github.com/user-attachments/assets/eef14ba5-f2b0-4ef3-a789-82f57841e4de" width="350px">
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/20b5cbb4-2a4a-423d-8b1d-fa84e0bc52c9)
-
+<img src="https://github.com/user-attachments/assets/20b5cbb4-2a4a-423d-8b1d-fa84e0bc52c9" width="350px">
 
 grep -R ubuntu /etc
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/975dce95-3309-4d93-b77c-0d7080b2f5c7)
+<img src="https://github.com/user-attachments/assets/975dce95-3309-4d93-b77c-0d7080b2f5c7" width="350px">
 
 grep -w -n world newfile   
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/1b8747b8-370d-4e9f-a84c-de847c5a1a54)
+<img src="https://github.com/user-attachments/assets/1b8747b8-370d-4e9f-a84c-de847c5a1a54" width="350px">
 
 
 cat < newfile 
@@ -158,12 +152,12 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
-![image](https://github.com/user-attachments/assets/ddb630a2-5bae-4f66-972d-54953dc23f39)
+<img src="https://github.com/user-attachments/assets/ddb630a2-5bae-4f66-972d-54953dc23f39" width="350px">
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/006d984c-e67d-42e1-80e4-52769727dcbe)
+<img src="https://github.com/user-attachments/assets/006d984c-e67d-42e1-80e4-52769727dcbe" width="350px">
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
