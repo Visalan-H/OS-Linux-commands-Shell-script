@@ -335,6 +335,7 @@ uniq file22
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 <img src="https://github.com/user-attachments/assets/e393f123-4d99-4741-a09b-2fa81b1a38ca" width="350px">
+
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -362,6 +363,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 tar -cvf backup.tar *
 ## OUTPUT
 <img src="https://github.com/user-attachments/assets/11e9a3b0-d33f-44e9-a31e-129bb4920ecd" width="350px">
+
 mkdir backupdir
  
 mv backup.tar backupdir
@@ -373,6 +375,7 @@ tar -tvf backup.tar
 tar -xvf backup.tar
 ## OUTPUT
 <img src="https://github.com/user-attachments/assets/9da5f757-cc7e-4647-9c42-b926e90dcf36" width="350px">
+
 gzip backup.tar
 
 ls .gz
@@ -455,6 +458,7 @@ echo $?
 
 ## OUTPUT 
 <img src="https://github.com/user-attachments/assets/6d889bd0-f3e2-4452-8e03-f7cb2221c080" width="350px">
+
 ./one
 bash: ./one: Permission denied
  
@@ -814,6 +818,7 @@ $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
 <img src="https://github.com/user-attachments/assets/9fe44fdc-b2ba-4d60-a19f-423e076bc1d6" width="350px">
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
