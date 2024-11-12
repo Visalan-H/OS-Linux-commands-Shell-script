@@ -166,7 +166,7 @@ egrep -w '(H|h)ell[a-z]' newfile
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-<img src="https://github.com/user-attachments/assets/f120824e-3c7b-41e3-848d-cd26d54b47" width="350px">
+<img src="https://github.com/user-attachments/assets/f120824e-3c7b-41e3-848d-cd2d26d54b47" width="350px">
 
 egrep '(world$)' newfile 
 ## OUTPUT
