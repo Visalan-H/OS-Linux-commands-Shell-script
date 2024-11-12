@@ -60,7 +60,8 @@ comm file1 file2
 diff file1 file2
 ## OUTPUT
 <img src="https://github.com/user-attachments/assets/ec89ed66-16c1-4907-9fbf-78aef5e2a7ea" width="350px">
-#Filters
+
+# Filters
 
 ### Create the following files file11, file22 as follows:
 
